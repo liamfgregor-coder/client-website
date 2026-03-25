@@ -1,0 +1,550 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"/&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</p>
+<p class="p1">&lt;title&gt;Interior Girls of Windsor | Invercargill Interior Design&lt;/title&gt;</p>
+<p class="p1">&lt;meta name="description" content="Helping Southlanders transform their homes for over 20 years. Custom drapes, blinds, wallpaper &amp;amp; homewares in Invercargill."/&gt;</p>
+<p class="p1">&lt;link rel="preconnect" href="https://fonts.googleapis.com"/&gt;</p>
+<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&amp;family=Outfit:wght@200;300;400;500&amp;display=swap" rel="stylesheet"/&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}</p>
+<p class="p1">html{scroll-behavior:smooth;font-size:16px}</p>
+<p class="p1">img{display:block;width:100%;height:100%;object-fit:cover}</p>
+<p class="p1">a{text-decoration:none;color:inherit}</p>
+<p class="p1">:root{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>--ivory:#f8f4ef;--linen:#ede8df;--blush:#e8d5c4;--clay:#c9a98a;--umber:#8b6a4e;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>--bark:#4a3728;--charcoal:#2b2520;--sage:#8a9a85;--sage-lt:#d4dcd2;--white:#fefcf9;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>--ff-serif:'Playfair Display',Georgia,serif;--ff-sans:'Outfit',sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>--ease-out:cubic-bezier(.22,.68,0,1.2);</p>
+<p class="p1">}</p>
+<p class="p1">body{font-family:var(--ff-sans);font-weight:300;background:var(--ivory);color:var(--charcoal);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}</p>
+<p class="p1">.wrap{max-width:1180px;margin:0 auto;padding:0 2.5rem}</p>
+<p class="p1">#nav{position:fixed;top:0;left:0;right:0;z-index:300;transition:background .4s,box-shadow .4s}</p>
+<p class="p1">#nav.filled{background:rgba(248,244,239,.94);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(139,106,78,.12)}</p>
+<p class="p1">.nav-inner{max-width:1180px;margin:0 auto;padding:0 2.5rem;height:76px;display:flex;align-items:center;justify-content:space-between}</p>
+<p class="p1">.nav-logo{display:flex;flex-direction:column;line-height:1.05}</p>
+<p class="p1">.nav-logo .l1{font-family:var(--ff-serif);font-size:1.2rem;font-weight:400;color:var(--charcoal);letter-spacing:.02em}</p>
+<p class="p1">.nav-logo .l2{font-size:.56rem;letter-spacing:.28em;text-transform:uppercase;color:var(--umber);font-weight:500}</p>
+<p class="p1">.nav-links{display:flex;align-items:center;gap:2.8rem;list-style:none}</p>
+<p class="p1">.nav-links a{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:400;color:var(--umber);transition:color .2s}</p>
+<p class="p1">.nav-links a:hover{color:var(--charcoal)}</p>
+<p class="p1">.nav-cta{display:inline-block;border:1px solid var(--umber);padding:.5rem 1.3rem;color:var(--umber)!important;font-size:.66rem!important;letter-spacing:.16em!important;border-radius:0;transition:background .25s,color .25s!important}</p>
+<p class="p1">.nav-cta:hover{background:var(--umber);color:var(--white)!important}</p>
+<p class="p1">.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}</p>
+<p class="p1">.hamburger span{display:block;width:22px;height:1px;background:var(--charcoal);transition:all .25s}</p>
+<p class="p1">#hero{position:relative;min-height:100vh;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}</p>
+<p class="p1">.hero-left{display:flex;flex-direction:column;justify-content:flex-end;padding:9rem 3.5rem 5rem 2.5rem;background:var(--ivory);position:relative;z-index:2;padding-left:max(2.5rem,calc((100vw - 1180px)/2 + 2.5rem))}</p>
+<p class="p1">.hero-kicker{font-size:.64rem;letter-spacing:.26em;text-transform:uppercase;color:var(--umber);font-weight:500;margin-bottom:1.6rem;display:flex;align-items:center;gap:.8rem}</p>
+<p class="p1">.hero-kicker::before{content:'';display:block;width:32px;height:1px;background:var(--clay)}</p>
+<p class="p1">.hero-left h1{font-family:var(--ff-serif);font-size:clamp(3rem,5.5vw,5.2rem);font-weight:400;line-height:1.1;color:var(--charcoal);margin-bottom:2rem;letter-spacing:-.01em}</p>
+<p class="p1">.hero-left h1 em{font-style:italic;color:var(--umber)}</p>
+<p class="p1">.hero-desc{font-size:.95rem;color:var(--umber);max-width:380px;line-height:1.75;margin-bottom:3rem;font-weight:300}</p>
+<p class="p1">.cta-group{display:flex;gap:1rem;align-items:center}</p>
+<p class="p1">.btn-fill{display:inline-block;background:var(--bark);color:var(--ivory);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;font-weight:400;font-family:var(--ff-sans);padding:.95rem 2.2rem;border:none;cursor:pointer;transition:background .25s,transform .2s}</p>
+<p class="p1">.btn-fill:hover{background:var(--umber);transform:translateY(-2px)}</p>
+<p class="p1">.btn-line{display:inline-block;border:1px solid var(--clay);color:var(--umber);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;font-weight:400;padding:.95rem 2rem;transition:border-color .2s,color .2s}</p>
+<p class="p1">.btn-line:hover{border-color:var(--umber);color:var(--bark)}</p>
+<p class="p1">.hero-strip{position:absolute;bottom:0;left:0;right:0;z-index:5;background:var(--bark);padding:.75rem 0;overflow:hidden;display:flex}</p>
+<p class="p1">.strip-track{display:flex;align-items:center;gap:0;animation:marquee 22s linear infinite;white-space:nowrap}</p>
+<p class="p1">.strip-item{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(248,244,239,.55);font-weight:400;padding:0 2.5rem;display:flex;align-items:center;gap:.8rem}</p>
+<p class="p1">.strip-dot{width:3px;height:3px;border-radius:50%;background:var(--clay);flex-shrink:0}</p>
+<p class="p1">@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}</p>
+<p class="p1">.hero-right{position:relative;overflow:hidden;background:var(--linen)}</p>
+<p class="p1">.hero-img-main{position:absolute;inset:0;overflow:hidden}</p>
+<p class="p1">.hero-img-main img{width:100%;height:100%;object-fit:cover;object-position:center;animation:hzoom 16s ease-in-out infinite alternate}</p>
+<p class="p1">@keyframes hzoom{from{transform:scale(1)}to{transform:scale(1.06)}}</p>
+<p class="p1">.hero-img-inset{position:absolute;bottom:5rem;left:-2.5rem;width:200px;height:240px;box-shadow:0 20px 60px rgba(44,33,24,.25);z-index:3;overflow:hidden;border:4px solid var(--ivory)}</p>
+<p class="p1">.hero-scroll{position:absolute;bottom:5rem;right:2.5rem;z-index:4;writing-mode:vertical-rl;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(248,244,239,.65);display:flex;flex-direction:column;align-items:center;gap:.6rem}</p>
+<p class="p1">.hero-scroll::after{content:'';display:block;width:1px;height:48px;background:rgba(248,244,239,.4)}</p>
+<p class="p1">.s-label{font-size:.62rem;letter-spacing:.26em;text-transform:uppercase;color:var(--umber);font-weight:500;margin-bottom:1rem;display:flex;align-items:center;gap:.7rem}</p>
+<p class="p1">.s-label::before{content:'';display:block;width:22px;height:1px;background:var(--clay)}</p>
+<p class="p1">h2.serif{font-family:var(--ff-serif);font-size:clamp(2rem,4vw,3.6rem);font-weight:400;line-height:1.12;color:var(--charcoal);letter-spacing:-.01em}</p>
+<p class="p1">h2.serif em{font-style:italic;color:var(--umber)}</p>
+<p class="p1">#about{padding:8rem 0;background:var(--white)}</p>
+<p class="p1">.about-grid{display:grid;grid-template-columns:5fr 7fr;gap:7rem;align-items:center}</p>
+<p class="p1">.about-visual{position:relative}</p>
+<p class="p1">.about-img-wrap{aspect-ratio:3/4;overflow:hidden}</p>
+<p class="p1">.about-img-wrap img{transition:transform .6s ease}</p>
+<p class="p1">.about-img-wrap:hover img{transform:scale(1.04)}</p>
+<p class="p1">.about-num{position:absolute;bottom:-2rem;right:-2rem;background:var(--bark);color:var(--ivory);padding:2rem 2.2rem;text-align:center}</p>
+<p class="p1">.about-num .num{font-family:var(--ff-serif);font-size:3.5rem;font-weight:400;line-height:1;color:var(--clay);display:block}</p>
+<p class="p1">.about-num .lbl{font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(248,244,239,.55);font-weight:400;display:block;margin-top:.5rem}</p>
+<p class="p1">.about-text h2{margin-bottom:1.5rem}</p>
+<p class="p1">.about-text p{font-size:.97rem;color:var(--umber);line-height:1.8;margin-bottom:1.1rem}</p>
+<p class="p1">.cred-list{margin-top:2.5rem;display:flex;flex-direction:column;gap:.8rem}</p>
+<p class="p1">.cred-item{display:flex;align-items:center;gap:.9rem;font-size:.83rem;color:var(--bark);font-weight:400}</p>
+<p class="p1">.cred-item::before{content:'';display:block;width:24px;height:24px;border-radius:50%;flex-shrink:0;background:var(--sage-lt);background-image:url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.5 7.5L5.5 10.5L11.5 4' stroke='%238a9a85' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center}</p>
+<p class="p1">#services{padding:8rem 0;background:var(--linen);position:relative;overflow:hidden}</p>
+<p class="p1">#services::before{content:'SERVICES';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:var(--ff-serif);font-size:22vw;font-weight:400;color:rgba(139,106,78,.04);white-space:nowrap;pointer-events:none;letter-spacing:-.03em}</p>
+<p class="p1">.services-hdr{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4.5rem}</p>
+<p class="p1">.services-hdr p{max-width:340px;text-align:right;font-size:.9rem;color:var(--umber);line-height:1.7;font-weight:300}</p>
+<p class="p1">.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;position:relative;z-index:1}</p>
+<p class="p1">.svc-card{background:var(--white);overflow:hidden;position:relative;transition:transform .35s var(--ease-out),box-shadow .35s}</p>
+<p class="p1">.svc-card:hover{transform:translateY(-8px);box-shadow:0 24px 56px rgba(44,33,24,.12)}</p>
+<p class="p1">.svc-thumb{aspect-ratio:3/4;overflow:hidden}</p>
+<p class="p1">.svc-thumb img{transition:transform .55s ease}</p>
+<p class="p1">.svc-card:hover .svc-thumb img{transform:scale(1.08)}</p>
+<p class="p1">.svc-body{padding:1.5rem 1.4rem 2rem}</p>
+<p class="p1">.svc-body h3{font-family:var(--ff-serif);font-size:1.25rem;font-weight:400;color:var(--bark);margin-bottom:.6rem}</p>
+<p class="p1">.svc-body p{font-size:.82rem;color:var(--umber);line-height:1.65}</p>
+<p class="p1">.svc-link{display:inline-flex;align-items:center;gap:.4rem;margin-top:1.2rem;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--umber);font-weight:500;transition:color .2s,gap .2s}</p>
+<p class="p1">.svc-link:hover{color:var(--bark);gap:.7rem}</p>
+<p class="p1">.svc-link::after{content:'→'}</p>
+<p class="p1">#gallery{padding:8rem 0;background:var(--ivory)}</p>
+<p class="p1">.gal-hdr{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:3rem}</p>
+<p class="p1">.gal-hdr h2{line-height:1.05}</p>
+<p class="p1">.gal-grid{display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:auto auto;gap:1rem}</p>
+<p class="p1">.gi{overflow:hidden;cursor:pointer;position:relative}</p>
+<p class="p1">.gi img{transition:transform .55s ease}</p>
+<p class="p1">.gi:hover img{transform:scale(1.06)}</p>
+<p class="p1">.gi-overlay{position:absolute;inset:0;background:rgba(74,55,40,0);display:flex;align-items:center;justify-content:center;transition:background .35s}</p>
+<p class="p1">.gi:hover .gi-overlay{background:rgba(74,55,40,.35)}</p>
+<p class="p1">.gi-overlay span{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ivory);border:1px solid rgba(248,244,239,.65);padding:.5rem 1.1rem;opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s}</p>
+<p class="p1">.gi:hover .gi-overlay span{opacity:1;transform:translateY(0)}</p>
+<p class="p1">.gi:nth-child(1){grid-column:1/8;aspect-ratio:16/10}</p>
+<p class="p1">.gi:nth-child(2){grid-column:8/13;aspect-ratio:5/6}</p>
+<p class="p1">.gi:nth-child(3){grid-column:1/5;aspect-ratio:5/6}</p>
+<p class="p1">.gi:nth-child(4){grid-column:5/10;aspect-ratio:16/11}</p>
+<p class="p1">.gi:nth-child(5){grid-column:10/13;aspect-ratio:5/6}</p>
+<p class="p1">#lb{position:fixed;inset:0;z-index:900;background:rgba(26,19,14,.92);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s}</p>
+<p class="p1">#lb.open{opacity:1;pointer-events:all}</p>
+<p class="p1">#lb img{max-width:88vw;max-height:88vh;object-fit:contain;display:block}</p>
+<p class="p1">.lb-close,.lb-prev,.lb-next{position:fixed;background:none;border:none;color:rgba(248,244,239,.8);cursor:pointer;font-size:1.6rem;font-family:inherit;transition:color .2s}</p>
+<p class="p1">.lb-close:hover,.lb-prev:hover,.lb-next:hover{color:var(--ivory)}</p>
+<p class="p1">.lb-close{top:1.5rem;right:2rem;font-size:2rem;line-height:1}</p>
+<p class="p1">.lb-prev{left:1.5rem;top:50%;transform:translateY(-50%);font-size:2.4rem}</p>
+<p class="p1">.lb-next{right:1.5rem;top:50%;transform:translateY(-50%);font-size:2.4rem}</p>
+<p class="p1">#testimonials{padding:8rem 0;background:var(--bark);position:relative;overflow:hidden}</p>
+<p class="p1">#testimonials::before{content:'"';position:absolute;top:-4rem;left:2rem;font-family:var(--ff-serif);font-size:28rem;color:rgba(248,244,239,.04);line-height:1;pointer-events:none}</p>
+<p class="p1">.test-hdr{margin-bottom:4rem}</p>
+<p class="p1">.test-hdr .s-label{color:var(--clay)}</p>
+<p class="p1">.test-hdr .s-label::before{background:var(--clay)}</p>
+<p class="p1">.test-hdr h2{color:var(--ivory)}</p>
+<p class="p1">.test-hdr h2 em{color:var(--clay)}</p>
+<p class="p1">.test-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}</p>
+<p class="p1">.test-card{background:rgba(248,244,239,.05);border:1px solid rgba(248,244,239,.1);padding:2.8rem;position:relative}</p>
+<p class="p1">.test-stars{color:var(--clay);font-size:.9rem;letter-spacing:.05em;margin-bottom:1.5rem}</p>
+<p class="p1">.test-quote{font-family:var(--ff-serif);font-size:1.1rem;font-weight:400;font-style:italic;color:rgba(248,244,239,.85);line-height:1.75;margin-bottom:2rem}</p>
+<p class="p1">.test-author{display:flex;align-items:center;gap:1rem}</p>
+<p class="p1">.test-avatar{width:42px;height:42px;border-radius:50%;background:var(--clay);display:flex;align-items:center;justify-content:center;font-family:var(--ff-serif);font-size:1.1rem;color:var(--bark);flex-shrink:0;font-style:italic}</p>
+<p class="p1">.test-name{font-size:.88rem;font-weight:400;color:var(--ivory)}</p>
+<p class="p1">.test-role{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--clay);margin-top:.15rem}</p>
+<p class="p1">#contact{padding:8rem 0;background:var(--white)}</p>
+<p class="p1">.contact-grid{display:grid;grid-template-columns:5fr 7fr;gap:6rem;align-items:start}</p>
+<p class="p1">.contact-info h2{margin-bottom:2rem}</p>
+<p class="p1">.info-cards{display:flex;flex-direction:column;gap:0}</p>
+<p class="p1">.info-card{padding:1.6rem 0;border-top:1px solid var(--linen)}</p>
+<p class="p1">.info-card:last-child{border-bottom:1px solid var(--linen)}</p>
+<p class="p1">.info-card h4{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500;color:var(--umber);margin-bottom:.6rem}</p>
+<p class="p1">.info-card p,.info-card a{font-size:.93rem;color:var(--bark);line-height:1.6}</p>
+<p class="p1">.info-card a:hover{color:var(--umber)}</p>
+<p class="p1">.hours{width:100%;border-collapse:collapse;font-size:.85rem}</p>
+<p class="p1">.hours td{padding:.28rem 0;vertical-align:top}</p>
+<p class="p1">.hours td:first-child{color:var(--bark)}</p>
+<p class="p1">.hours td:last-child{text-align:right;color:var(--umber)}</p>
+<p class="p1">.hours tr.closed td{color:var(--clay);opacity:.6}</p>
+<p class="p1">.form-wrap{background:var(--ivory);border:1px solid var(--linen);padding:3rem 2.8rem}</p>
+<p class="p1">.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}</p>
+<p class="p1">.fg{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1.3rem}</p>
+<p class="p1">.fg:last-of-type{margin-bottom:0}</p>
+<p class="p1">.fg label{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:var(--umber)}</p>
+<p class="p1">.fg input,.fg textarea{font-family:var(--ff-sans);font-size:.9rem;font-weight:300;background:var(--white);color:var(--charcoal);border:1px solid var(--linen);padding:.8rem 1rem;outline:none;border-radius:0;resize:vertical;transition:border-color .2s,box-shadow .2s}</p>
+<p class="p1">.fg input::placeholder,.fg textarea::placeholder{color:var(--blush)}</p>
+<p class="p1">.fg input:focus,.fg textarea:focus{border-color:var(--clay);box-shadow:0 0 0 3px rgba(201,169,138,.12)}</p>
+<p class="p1">.form-wrap .btn-fill{width:100%;text-align:center;margin-top:1.5rem;font-family:var(--ff-sans)}</p>
+<p class="p1">.form-note{text-align:center;margin-top:.9rem;font-size:.72rem;color:var(--clay);letter-spacing:.06em}</p>
+<p class="p1">.success-msg{display:none;background:rgba(138,154,133,.12);border:1px solid rgba(138,154,133,.3);color:var(--sage);padding:1rem;text-align:center;font-size:.85rem;margin-top:1rem}</p>
+<p class="p1">.success-msg.show{display:block}</p>
+<p class="p1">footer{background:var(--charcoal);padding:4.5rem 0 2.5rem}</p>
+<p class="p1">.footer-top{display:grid;grid-template-columns:1fr auto 1fr;align-items:start;gap:3rem;padding-bottom:3rem;border-bottom:1px solid rgba(248,244,239,.07);margin-bottom:2.5rem}</p>
+<p class="p1">.footer-logo .l1{font-family:var(--ff-serif);font-size:1.3rem;font-weight:400;color:var(--ivory);display:block}</p>
+<p class="p1">.footer-logo .l2{font-size:.54rem;letter-spacing:.26em;text-transform:uppercase;color:var(--clay);display:block;font-weight:500;margin-top:.2rem}</p>
+<p class="p1">.footer-tagline{font-size:.82rem;color:rgba(248,244,239,.4);margin-top:.8rem;line-height:1.6;max-width:220px}</p>
+<p class="p1">.footer-nav{display:flex;flex-direction:column;gap:1rem;align-items:center}</p>
+<p class="p1">.footer-nav a{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(248,244,239,.4);transition:color .2s}</p>
+<p class="p1">.footer-nav a:hover{color:var(--clay)}</p>
+<p class="p1">.footer-contact{text-align:right}</p>
+<p class="p1">.footer-contact p{font-size:.84rem;color:rgba(248,244,239,.5);line-height:1.7}</p>
+<p class="p1">.footer-contact a{color:var(--clay);transition:color .2s}</p>
+<p class="p1">.footer-contact a:hover{color:var(--ivory)}</p>
+<p class="p1">.footer-copy{text-align:center;font-size:.66rem;letter-spacing:.1em;color:rgba(248,244,239,.2)}</p>
+<p class="p1">.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}</p>
+<p class="p1">.reveal.in{opacity:1;transform:translateY(0)}</p>
+<p class="p1">@media(max-width:1024px){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#hero{grid-template-columns:1fr}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-left{padding:10rem 2.5rem 6rem;min-height:100vh;justify-content:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-right{display:none}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.about-grid,.contact-grid{grid-template-columns:1fr;gap:3.5rem}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.about-num{right:0}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.services-grid{grid-template-columns:repeat(2,1fr)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.services-hdr{flex-direction:column;align-items:flex-start;gap:1rem}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.services-hdr p{text-align:left}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.test-grid{grid-template-columns:1fr}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-top{grid-template-columns:1fr;text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-contact{text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-logo{display:flex;flex-direction:column;align-items:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.footer-tagline{max-width:100%;text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.gal-hdr{flex-direction:column;align-items:flex-start;gap:1rem}</p>
+<p class="p1">}</p>
+<p class="p1">@media(max-width:768px){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links{display:none}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hamburger{display:flex}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links.open{display:flex;flex-direction:column;align-items:flex-start;position:absolute;top:76px;left:0;right:0;background:rgba(248,244,239,.97);backdrop-filter:blur(12px);padding:1.5rem 2.5rem 2rem;gap:0;border-top:1px solid var(--linen)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links.open li{width:100%;border-bottom:1px solid var(--linen)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links.open a{display:block;padding:.9rem 0;font-size:.8rem}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.gal-grid{grid-template-columns:1fr 1fr}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.gi:nth-child(n){grid-column:auto;aspect-ratio:1/1}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.gi:nth-child(1){grid-column:span 2;aspect-ratio:16/9}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.services-grid{grid-template-columns:1fr}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.form-row{grid-template-columns:1fr}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.wrap{padding:0 1.5rem}</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1">&lt;header id="nav"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="nav-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a class="nav-logo" href="#hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="l1"&gt;Interior Girls&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="l2"&gt;of Windsor · Invercargill&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button class="hamburger" id="hbg" aria-label="Menu"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;ul class="nav-links" id="navLinks"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;a href="#gallery"&gt;Gallery&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;a href="#contact" class="nav-cta"&gt;Get a Quote&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="hero-left"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="hero-kicker"&gt;Invercargill · Southland · Est. 2003&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Interior design&lt;br/&gt;&lt;em&gt;made simple&lt;/em&gt;&lt;br/&gt;and stylish.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="hero-desc"&gt;Helping Southlanders transform their homes for over 20 years. From concept to completion — beautifully done.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="cta-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#contact" class="btn-fill"&gt;Get a Quote&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#services" class="btn-line"&gt;Our Services&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="hero-right"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-img-main"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- CHANGE 1: Upgraded to ultra high-res luxury interior image --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=2400&amp;q=95&amp;auto=format&amp;fit=crop" alt="Interior design showcase"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-img-inset"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&amp;q=80" alt="Interior detail"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero-scroll"&gt;Scroll&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="hero-strip"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="strip-track" id="stripTrack"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Custom Drapes&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Blinds&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Wallpapers&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Homewares&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Styling&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;20+ Years Experience&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Invercargill Based&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Concept to Completion&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Custom Drapes&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Blinds&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Wallpapers&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Homewares&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Styling&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;20+ Years Experience&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Invercargill Based&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;span class="strip-item"&gt;&lt;span class="strip-dot"&gt;&lt;/span&gt;Concept to Completion&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="about-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="about-visual reveal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="about-img-wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&amp;q=80" alt="Interior design consultation" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="about-num"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="num"&gt;20&lt;sup style="font-size:1.2rem;vertical-align:super"&gt;+&lt;/sup&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span class="lbl"&gt;Years of&lt;br/&gt;Experience&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="about-text reveal" style="transition-delay:.15s"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="s-label"&gt;About Us&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="serif"&gt;Your trusted partner in &lt;em&gt;beautiful interiors.&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Nestled in the heart of Windsor, Invercargill, Interior Girls has been a cornerstone of Southland's design scene for more than two decades. We're a local, owner-operated business built on a genuine love of beautiful spaces.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;From your first call to the final fitting, we guide you through every decision — offering expert advice, premium products, and a seamless full service from concept to completion. No stress, no guesswork, just results you'll love.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="cred-list"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="cred-item"&gt;Local, owner-operated Invercargill business&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="cred-item"&gt;Over 20 years designing Southland homes&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="cred-item"&gt;Full service from consultation to installation&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="cred-item"&gt;Premium product range at every price point&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="services"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="services-hdr reveal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="s-label"&gt;What We Do&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="serif"&gt;Crafted for&lt;br/&gt;&lt;em&gt;your home&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Every project is different. We take the time to understand your space, your style, and your budget — then we make it happen beautifully.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="services-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="svc-card reveal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-thumb"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&amp;q=80" alt="Custom Drapes" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;Custom Drapes&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Bespoke drapery designed and fitted to your exact specifications. We work with a wide range of fabrics — from timeless linen to sumptuous velvet.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="#contact" class="svc-link"&gt;Enquire&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="svc-card reveal" style="transition-delay:.1s"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-thumb"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&amp;q=80" alt="Blinds" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;Blinds&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Clean, practical, and beautiful. Roller, Roman, venetian, and sheer blinds for the perfect balance of light control and style.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="#contact" class="svc-link"&gt;Enquire&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="svc-card reveal" style="transition-delay:.2s"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-thumb"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?w=600&amp;q=80" alt="Wallpapers" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;Wallpapers&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Make a statement. We source and install a stunning range of patterns, textures, and prints to suit any room or personality.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="#contact" class="svc-link"&gt;Enquire&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="svc-card reveal" style="transition-delay:.3s"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-thumb"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&amp;q=80" alt="Homewares &amp;amp; Styling" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="svc-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;Homewares &amp;amp; Styling&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;The finishing touches that bring a room to life. Browse our curated homewares — or let us style your entire space for you.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="#contact" class="svc-link"&gt;Enquire&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="gallery"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="gal-hdr reveal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="s-label"&gt;Our Work&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="serif"&gt;Spaces we've&lt;br/&gt;&lt;em&gt;loved into life&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- CHANGE 2: Window drapes image (photo-1572049100) removed. 5 images remain. --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="gal-grid" id="galGrid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="gi reveal" tabindex="0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=1000&amp;q=80" alt="Living room" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gi-overlay"&gt;&lt;span&gt;View&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="gi reveal" tabindex="0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&amp;q=80" alt="Bedroom" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gi-overlay"&gt;&lt;span&gt;View&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="gi reveal" tabindex="0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&amp;q=80" alt="Dining room" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gi-overlay"&gt;&lt;span&gt;View&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="gi reveal" tabindex="0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="https://images.unsplash.com/photo-1567016432779-094069958ea5?w=1000&amp;q=80" alt="Lounge" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gi-overlay"&gt;&lt;span&gt;View&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="gi reveal" tabindex="0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&amp;q=80" alt="Bedroom styling" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gi-overlay"&gt;&lt;span&gt;View&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div id="lb"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="lb-close" id="lbClose"&gt;&amp;times;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="lb-prev" id="lbPrev"&gt;&amp;#8249;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="lb-next" id="lbNext"&gt;&amp;#8250;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;img id="lbImg" src="" alt=""/&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="testimonials"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="test-hdr reveal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="s-label"&gt;Kind Words&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="serif"&gt;What our clients&lt;br/&gt;&lt;em&gt;have to say&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="test-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="test-card reveal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="test-stars"&gt;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="test-quote"&gt;"The team transformed our living room completely. From drapes to cushions, every detail was considered. We couldn't be happier with the result — it finally feels like home."&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="test-author"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="test-avatar"&gt;S&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div&gt;&lt;p class="test-name"&gt;Sarah M.&lt;/p&gt;&lt;p class="test-role"&gt;Invercargill&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="test-card reveal" style="transition-delay:.15s"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="test-stars"&gt;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&amp;#9733;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="test-quote"&gt;"Professional, knowledgeable, and genuinely passionate about design. They listened to exactly what we wanted and delivered beyond our expectations. Highly recommend."&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="test-author"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="test-avatar"&gt;R&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div&gt;&lt;p class="test-name"&gt;Rachel &amp;amp; Tom K.&lt;/p&gt;&lt;p class="test-role"&gt;Winton&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="contact-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="reveal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="s-label"&gt;Visit Us&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="serif"&gt;Let's talk about&lt;br/&gt;&lt;em&gt;your space&lt;/em&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="info-cards" style="margin-top:2.5rem"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="info-card"&gt;&lt;h4&gt;Address&lt;/h4&gt;&lt;p&gt;54 King Street&lt;br/&gt;Windsor, Invercargill&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="info-card"&gt;&lt;h4&gt;Phone&lt;/h4&gt;&lt;p&gt;&lt;a href="tel:032177381"&gt;03 217 7381&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="info-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h4&gt;Opening Hours&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;table class="hours"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;tr&gt;&lt;td&gt;Monday – Wednesday&lt;/td&gt;&lt;td&gt;9:30 – 5:00&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;tr&gt;&lt;td&gt;Thursday&lt;/td&gt;&lt;td&gt;9:30 – 6:00&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;tr&gt;&lt;td&gt;Friday&lt;/td&gt;&lt;td&gt;9:30 – 5:00&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;tr&gt;&lt;td&gt;Saturday&lt;/td&gt;&lt;td&gt;10:00 – 2:00&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;tr class="closed"&gt;&lt;td&gt;Sunday&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="reveal" style="transition-delay:.15s"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;form id="contactForm" novalidate&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="fg"&gt;&lt;label for="name"&gt;Full Name&lt;/label&gt;&lt;input type="text" id="name" name="name" placeholder="Jane Smith" required/&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="form-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="fg"&gt;&lt;label for="email"&gt;Email Address&lt;/label&gt;&lt;input type="email" id="email" name="email" placeholder="jane@example.com" required/&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="fg"&gt;&lt;label for="phone"&gt;Phone&lt;/label&gt;&lt;input type="tel" id="phone" name="phone" placeholder="03 000 0000"/&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="fg"&gt;&lt;label for="message"&gt;Your Message&lt;/label&gt;&lt;textarea id="message" name="message" rows="5" placeholder="Tell us about your project…" required&gt;&lt;/textarea&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button type="submit" class="btn-fill"&gt;Send Enquiry&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="form-note"&gt;We'll be in touch within one business day.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="success-msg" id="successMsg"&gt;&amp;#10003; Thank you — we'll be in touch very soon.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="footer-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="footer-logo"&gt;&lt;span class="l1"&gt;Interior Girls&lt;/span&gt;&lt;span class="l2"&gt;of Windsor&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="footer-tagline"&gt;Helping Southlanders create beautiful homes for over 20 years.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;nav class="footer-nav"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#about"&gt;About&lt;/a&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#gallery"&gt;Gallery&lt;/a&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="footer-contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;54 King Street, Windsor&lt;br/&gt;Invercargill, New Zealand&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p style="margin-top:.6rem"&gt;&lt;a href="tel:032177381"&gt;03 217 7381&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="footer-copy"&gt;&amp;copy; 2026 Interior Girls of Windsor Ltd. All rights reserved.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">const nav=document.getElementById('nav');</p>
+<p class="p1">const hbg=document.getElementById('hbg');</p>
+<p class="p1">const navLinks=document.getElementById('navLinks');</p>
+<p class="p1">window.addEventListener('scroll',()=&gt;{nav.classList.toggle('filled',window.scrollY&gt;30);},{passive:true});</p>
+<p class="p1">hbg.addEventListener('click',()=&gt;navLinks.classList.toggle('open'));</p>
+<p class="p1">document.addEventListener('click',e=&gt;{if(!nav.contains(e.target))navLinks.classList.remove('open');});</p>
+<p class="p1">navLinks.querySelectorAll('a').forEach(a=&gt;{a.addEventListener('click',()=&gt;navLinks.classList.remove('open'));});</p>
+<p class="p1">const reveals=document.querySelectorAll('.reveal');</p>
+<p class="p1">const ro=new IntersectionObserver(entries=&gt;{entries.forEach(e=&gt;{if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target)}});},{threshold:.1});</p>
+<p class="p1">reveals.forEach(r=&gt;ro.observe(r));</p>
+<p class="p1">const imgs=Array.from(document.querySelectorAll('.gi img'));</p>
+<p class="p1">const lb=document.getElementById('lb');</p>
+<p class="p1">const lbImg=document.getElementById('lbImg');</p>
+<p class="p1">let lbIdx=0;</p>
+<p class="p1">function lbOpen(i){lbIdx=i;lbImg.src=imgs[i].src.replace(/w=\d+/,'w=1400');lbImg.alt=imgs[i].alt;lb.classList.add('open');document.body.style.overflow='hidden';}</p>
+<p class="p1">function lbClose(){lb.classList.remove('open');document.body.style.overflow='';}</p>
+<p class="p1">function lbPrev(){lbIdx=(lbIdx-1+imgs.length)%imgs.length;lbOpen(lbIdx);}</p>
+<p class="p1">function lbNext(){lbIdx=(lbIdx+1)%imgs.length;lbOpen(lbIdx);}</p>
+<p class="p1">document.querySelectorAll('.gi').forEach((gi,i)=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gi.addEventListener('click',()=&gt;lbOpen(i));</p>
+<p class="p1"><span class="Apple-converted-space">  </span>gi.addEventListener('keydown',e=&gt;{if(e.key==='Enter')lbOpen(i);});</p>
+<p class="p1">});</p>
+<p class="p1">document.getElementById('lbClose').addEventListener('click',lbClose);</p>
+<p class="p1">document.getElementById('lbPrev').addEventListener('click',lbPrev);</p>
+<p class="p1">document.getElementById('lbNext').addEventListener('click',lbNext);</p>
+<p class="p1">lb.addEventListener('click',e=&gt;{if(e.target===lb)lbClose();});</p>
+<p class="p1">document.addEventListener('keydown',e=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(!lb.classList.contains('open'))return;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(e.key==='Escape')lbClose();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(e.key==='ArrowLeft')lbPrev();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(e.key==='ArrowRight')lbNext();</p>
+<p class="p1">});</p>
+<p class="p1">const form=document.getElementById('contactForm');</p>
+<p class="p1">const success=document.getElementById('successMsg');</p>
+<p class="p1">form.addEventListener('submit',e=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const ok=['name','email','message'].every(id=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const f=form[id];const v=!!f.value.trim();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>f.style.borderColor=v?'':'#c9a98a';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(!v)f.addEventListener('input',()=&gt;f.style.borderColor='',{once:true});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>return v;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(!ok)return;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btn=form.querySelector('button');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>btn.textContent='Sending…';btn.disabled=true;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>setTimeout(()=&gt;{form.reset();btn.textContent='Send Enquiry';btn.disabled=false;success.classList.add('show');setTimeout(()=&gt;success.classList.remove('show'),6000);},1200);</p>
+<p class="p1">});</p>
+<p class="p1">document.querySelectorAll('a[href^="#"]').forEach(a=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>a.addEventListener('click',e=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const t=document.querySelector(a.getAttribute('href'));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(!t)return;e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>window.scrollTo({top:t.getBoundingClientRect().top+scrollY-80,behavior:'smooth'});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1">});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
